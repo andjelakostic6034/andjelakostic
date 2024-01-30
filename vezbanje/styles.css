@@ -1,0 +1,54 @@
+body {
+	background-color: black;
+	overflow: hidden;
+}
+
+#gif {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#naslov {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 400px;
+}
+
+#meni {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightorange;
+}
+
+h1:hover{color:darkorange;}
+
+img {
+	width: 400px;
+}
